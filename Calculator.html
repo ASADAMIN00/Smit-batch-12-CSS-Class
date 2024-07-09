@@ -18,14 +18,14 @@
         <div id="keys">
             <button onclick="cleardisplay()" class="operator-btn">C</button>
             <button onclick="appendToDisplay('+/-')" class="c1">+/-</button>
-            <button onclick="appendToDisplay('%')" class="c1">%</button>
-            <button onclick="appendToDisplay('÷')" class="operator-btn">÷</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
         </div>
         <div>
             <button onclick="appendToDisplay('7')" class="c2">7</button>
             <button onclick="appendToDisplay('8')" class="c2">8</button>
             <button onclick="appendToDisplay('9')" class="c2">9</button>
-            <button onclick="appendToDisplay('×')" class="operator-btn">×</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
         </div>
         <div>
             <button onclick="appendToDisplay('4')" class="c2">4</button>
@@ -40,7 +40,7 @@
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
         </div>
         <div>
-            <button onclick="appendToDisplay('←')" class="c2">←</button>
+            <button onclick="cleardisplay()" class="operator-btn">←</button>
             <button onclick="appendToDisplay('0')" class="c2">0</button>
             <button onclick="appendToDisplay('.')"  class="c2">.</button>
             <button onclick="calculate()">=</button>
